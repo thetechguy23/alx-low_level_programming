@@ -9,16 +9,17 @@
 
 int main(void)
 {
-        char = 'a';
+	char c;
 
-        while (ch <= 'z')
-        {
-                if (ch != 'e' && != 'q')
-                {
-                        putchar(ch);
-                }
-                ch++;
-        }
-        putchar('\n');
-        return (0);
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+	}
+
+	putchar('\n');
+
+	return (0);
 }
